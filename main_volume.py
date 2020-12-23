@@ -4,7 +4,7 @@ def main():
     if pilih in ["Kubus","kubus","1"]:
         print("\nVolume Kubus Adalah:  ", kubus().volume_kubus())
     elif pilih in ["Balok","balok","2"]:
-        print("\nVolume Balok Adalah:  ", balok().volume_balok())
+        print("\nVolume Balok Adalah:  ", balok().Volume_balok())
     elif pilih in ["Kerucut","kerucut","3"]:
         print("\nVolume Kerucut Adalah:  ", VolKerucut().volume())    
     elif pilih in ["Bola","bola","4"]:
