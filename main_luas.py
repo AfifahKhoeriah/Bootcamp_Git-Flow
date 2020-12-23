@@ -1,3 +1,6 @@
+from luas_bangun_ruang import *
+
+
 # main
 def main():
     pilih = input('Pilih Luas Bangun Ruang Apa? \n1. Kubus\n2. Balok\n3. Kerucut\n4. Bola \n5. Tabung\n6. Limas Segitiga\n7. Prisma Segitiga\n')
