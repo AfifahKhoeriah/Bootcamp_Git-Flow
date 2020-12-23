@@ -1,0 +1,24 @@
+#class untuk menghitung voume tabung
+class Tabung:
+    #inisialisasi atribut
+    def __init__(self):
+        self.jari_jari = float(input("Masukkan jari-jari tabung: "))        
+        self.tinggi = float(input("Masukkan tinggi tabung: ")) 
+
+    #menghitung volume tabung
+    def volumeTabung(self):
+        self.volume = (22/7)*(self.jari_jari*self.jari_jari)*self.tinggi
+        return self.volume
+
+#class untuk menghitung limas segitiga sama sisi
+class LimasSegitiga:
+    #inisialisasi atribut
+    def __init__(self):
+        self.tinggi = float(input("Masukkan tinggi limas: "))  
+        self.alas_segitiga = float(input("Masukkan alas segitiga: "))  
+        self.tinggi_segitiga = float(input("Masukkan tinggi segitiga: "))  
+
+    #menghitung volume limas segitiga sama sisi
+    def volumeLimasSegitiga(self):
+        self.volume = (1/3)*(self.alas_segitiga*self.tinggi_segitiga/2)*self.tinggi
+        return self.volume
