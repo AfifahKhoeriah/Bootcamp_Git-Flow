@@ -3,6 +3,6 @@ Pertemuan ke-4 Bootcamp QTI Git Flow Luas dan Volume  Kubus, Balok, Kerucut, Bol
 
 Developer :
 Afifah (Kubus dan Prisma Segitiga)
-Anisa (Bola dan Tabung)
+Anisa (Bola dan Kerucut)
 Ibnu (Balok)
 Ragil (Tabung dan Limas Segitiga)
