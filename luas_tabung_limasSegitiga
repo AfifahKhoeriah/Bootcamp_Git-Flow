@@ -1,0 +1,24 @@
+#class untuk menghitung luas tabung
+class Tabung:
+    #inisialisasi atribut
+    def __init__(self):
+        self.jari_jari = float(input("Masukkan jari-jari tabung: "))        
+        self.tinggi = float(input("Masukkan tinggi tabung: ")) 
+
+    #menghitung luas tabung
+    def luasTabung(self):
+        self.luas = 2*(22/7)*self.jari_jari*(self.jari_jari+self.tinggi)
+        return self.luas
+
+#class untuk menghitung luas limas segitiga sama sisi
+class LimasSegitiga:
+    #inisialisasi atribut
+    def __init__(self):
+        self.alas_segitiga = float(input("Masukkan panjang alas segitiga: "))  
+        self.tinggi_segitiga = float(input("Masukkan panjang tinggi segitiga: "))  
+        self.rusuk = float(input("Masukkan rusuk tegak "))  
+
+    #menghitung luas limas segitiga sama sisi
+    def luasLimasSegitiga(self):
+        self.luas = (self.alas_segitiga*self.tinggi_segitiga/2) + (self.rusuk*self.alas_segitiga/2)
+        return self.luas
