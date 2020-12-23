@@ -1,3 +1,5 @@
+from volume_bangun_ruang import *
+
 # main
 def main():
     pilih = input('Pilih Volume Bangun Ruang Apa? \n1. Kubus\n2. Balok\n3. Kerucut\n4. Bola \n5. Tabung\n6. Limas Segitiga\n7. Prisma Segitiga\n')
@@ -18,6 +20,6 @@ def main():
     else:
         print("Masukkan inputan yang benar ")
 
-# run program
+# run program volume bangun ruang
 if __name__ == "__main__":
     main()
