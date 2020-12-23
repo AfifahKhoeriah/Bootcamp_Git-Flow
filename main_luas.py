@@ -18,6 +18,6 @@ def main():
     else:
         print("Masukkan inputan yang benar ")
 
-# run program luas
+# run program luas bangun ruang
 if __name__ == "__main__":
     main()
