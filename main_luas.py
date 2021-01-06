@@ -1,4 +1,4 @@
-from luas_bangun_ruang import kubus, balok, prisma_segitiga
+from luas_bangun_ruang import kubus, prisma_segitiga
 
 # main
 def main():
