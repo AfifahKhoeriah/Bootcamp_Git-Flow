@@ -1,4 +1,4 @@
-from luas_bangun_ruang import kubus, prisma_segitiga
+from luas_bangun_ruang import *
 
 # main
 def main():
@@ -20,6 +20,6 @@ def main():
     else:
         print("Masukkan inputan yang benar ")
 
-# run program
+# run program luas bangun ruang
 if __name__ == "__main__":
     main()
