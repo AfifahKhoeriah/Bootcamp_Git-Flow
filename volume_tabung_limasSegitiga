@@ -2,6 +2,7 @@
 class Tabung:
     #inisialisasi atribut
     def __init__(self):
+        #membuat inputan
         self.jari_jari = float(input("Masukkan jari-jari tabung: "))        
         self.tinggi = float(input("Masukkan tinggi tabung: ")) 
 
@@ -14,6 +15,7 @@ class Tabung:
 class LimasSegitiga:
     #inisialisasi atribut
     def __init__(self):
+        #membuat inputan
         self.tinggi = float(input("Masukkan tinggi limas: "))  
         self.alas_segitiga = float(input("Masukkan alas segitiga: "))  
         self.tinggi_segitiga = float(input("Masukkan tinggi segitiga: "))  
